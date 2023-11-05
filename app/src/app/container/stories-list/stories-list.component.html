@@ -1,0 +1,16 @@
+<ng-container *ngIf="isLoading$ | async; then loading; else data">
+</ng-container>
+
+<ng-template #loading>
+    <div class="loader">
+        <img src="{{loadingUrl}}" />
+    </div>
+</ng-template>
+
+<ng-template #data>
+    <lazy-peon-story-item
+        *ngFor="let item of items$ | async"
+        [item]="item"
+    >
+    </lazy-peon-story-item>
+</ng-template>
