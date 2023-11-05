@@ -2,7 +2,11 @@ import { Nullable } from "@lazy-peon/framework.types";
 
 import { ɵHttpCode, ɵHttpVerb } from "../const";
 
-import { CONTENT_TYPE_APP_JSON, CONTENT_TYPE_HEADER_NAME, SUPRESSED_HTTP_CODES } from "./http.const";
+import {
+    CONTENT_TYPE_APP_JSON,
+    CONTENT_TYPE_HEADER_NAME,
+    SUPRESSED_HTTP_CODES
+} from "./http.const";
 
 export class HttpService {
 
