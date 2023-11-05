@@ -1,0 +1,14 @@
+{
+    "name": "@lazy-peon/common.hackernews.sdk",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "5.0.2"
+    },
+    "dependencies": {
+        "@lazy-peon/core.http": "*"
+    }
+}
