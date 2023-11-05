@@ -1,0 +1,35 @@
+:host {
+    display: flex;
+    width: 100%;
+    flex: 1;
+
+    .story-item {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid var(--primary-variant);
+        border-radius: 4px;
+        margin: 2px;
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &--lead {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            &--title {
+                font-weight: 600;
+            }
+
+            &--created-at {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

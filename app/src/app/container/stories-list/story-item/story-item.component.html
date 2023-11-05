@@ -1,0 +1,17 @@
+<ng-container *ngIf="!!item">
+    <div class="story-item">
+        <div class="story-item--lead">
+            <span class="story-item--lead--title">
+                {{item.title}}
+            </span>
+            <span class="story-item--lead--created-at">
+                {{item.date}}
+            </span>
+        </div>
+        <span class="story-item-author">
+            by {{item.by}}
+        </span>
+        <a href="{{item.url}}" target="_blank">Reference</a>
+    </div>
+    <!-- {{item.id}} | {{item.by}} | {{item.url}} | {{item.time}} | {{item.title}} -->
+</ng-container>
