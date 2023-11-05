@@ -1,0 +1,32 @@
+:host {
+    display: block;
+    height: 64px;
+    border-bottom: 2px solid var(--secondary-variant);
+    box-sizing: border-box;
+    background-color: var(--surface);
+    height: 64px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        height: 64px;
+
+        &-logo {
+            flex: 1;
+            // height: 26px;
+            margin: 8px;
+        }
+
+        &-title {
+            font-weight: 800;
+            text-transform: capitalize;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        &-options {
+            flex: 1;
+            margin: 8px;
+        }
+    }
+
+}
