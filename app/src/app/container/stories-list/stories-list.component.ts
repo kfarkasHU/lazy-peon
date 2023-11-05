@@ -3,8 +3,8 @@ import { Store } from "@ngrx/store";
 import { Observable } from "rxjs";
 import { Nullable } from "@lazy-peon/framework.types";
 
-import { StoriesSelector } from "../../../sdk";
-import { IStories } from "app/src/sdk/stories/stories.model";
+import { StoriesSelector, IStories } from "../../../sdk";
+
 import { LOADER_URL } from "./stories-list.const";
 
 @Component({
