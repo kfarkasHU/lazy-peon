@@ -6,7 +6,8 @@
   "scripts": {
     "lerna": "lerna",
     "nx": "nx",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "start": "lerna run start"
   },
   "devDependencies": {
     "lerna": "7.4.2"
